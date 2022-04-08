@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: calc(60% + 0.8vmin);
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #91C788;
+}
+
+.container {
+    max-width: 30rem;
+    margin: 32vh auto;
+    text-align: center;
+    background-color: #F5F5F5;
+    padding: 1rem;
+    border-radius: .6rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#city-input {
+    width: 80%;
+    text-align: center;
+}
+
+#city-input::placeholder {
+    text-align: center;
+}
+
+#getlocation-btn {
+    width: 80%;
+    background-color: #91C788;
+    border: none;
+    color: white;
+}
+
+#getlocation-btn:hover {
+    background-color: #78a570;
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.box {
+    display: none;
+    position: relative;
+    max-width: 30rem;
+    margin: 25vh auto;
+    text-align: center;
+    background-color: #F5F5F5;
+    padding: 1rem;
+    border-radius: .6rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#back {
+    cursor: pointer;
+    margin: 10px;
+    position: absolute;
+    top: 1;
+    left: 0;
+}
+
+#weather {
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 70%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+#feel-like {
+    border-right: 1px solid black;
+}
+
+#humidity {
+    border-left: 1px solid black;
+}
+
+#weather-img {
+    width: 10rem;
+}
+
+.weather-icon {
+    width: 3rem;
+    margin-right: 1rem;
+}
+
+.icon {
+    width: 2rem;
+}
+
+.error {
+    opacity: .9;
+    margin: 0 auto;
+    max-width: 80%;
+    background-color: #ed4337;
+    color: white;
+}
